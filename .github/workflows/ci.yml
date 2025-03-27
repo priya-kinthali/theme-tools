@@ -36,7 +36,7 @@ jobs:
     timeout-minutes: 30
     strategy:
       matrix:
-        os: [windows-2025]
+        os: [ubuntu-latest]
         node-version: [22]
 
     name: Tests / OS ${{ matrix.os }} / NodeJS ${{ matrix.node-version }}
